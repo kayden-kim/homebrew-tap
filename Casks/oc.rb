@@ -3,7 +3,7 @@ cask "oc" do
   name "oc"
   desc "The OpenCode Launcher"
   homepage "https://github.com/kayden-kim/oc"
-  version "0.3.0"
+  version "0.3.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "oc" do
     on_intel do
       url "https://github.com/kayden-kim/oc/releases/download/v#{version}/oc_#{version}_Darwin_x86_64.tar.gz",
         verified: "github.com/kayden-kim/oc/"
-      sha256 "c0911810927f13f6a8a0ee7c6a12b8283f73116c3c07ed80da511c9026021194"
+      sha256 "ab1adf06de2a6f0fdafdfeb1fa631938c4b0994fb646673b6f551cf063d25896"
     end
     on_arm do
       url "https://github.com/kayden-kim/oc/releases/download/v#{version}/oc_#{version}_Darwin_arm64.tar.gz",
         verified: "github.com/kayden-kim/oc/"
-      sha256 "ad4ca1b37a75b05950c89822dcd0666c6aa0d15c1dbad2439e83bb40db7b341d"
+      sha256 "e2648b28bac20447d9f15944d6ccbe379fb31bca1dcfd056328608105a7163c8"
     end
   end
 
@@ -28,12 +28,12 @@ cask "oc" do
     on_intel do
       url "https://github.com/kayden-kim/oc/releases/download/v#{version}/oc_#{version}_Linux_x86_64.tar.gz",
         verified: "github.com/kayden-kim/oc/"
-      sha256 "5dc362fa2abcb3ee68c9717c859855737bf179960d636caf6390f131cf644098"
+      sha256 "68e9fb55bdbf80dec6692a5677f59154ee8ba2b6e8e89be6ea56d478fdabb6ac"
     end
     on_arm do
       url "https://github.com/kayden-kim/oc/releases/download/v#{version}/oc_#{version}_Linux_arm64.tar.gz",
         verified: "github.com/kayden-kim/oc/"
-      sha256 "44d890cd8de5ac54a3e913364eb2144d75d60d5fd28850fa2edbbb9542b7c911"
+      sha256 "f3079c524334e99c4be10cbe890e3ae28d40c304ab451ad712cccea9a86620fb"
     end
   end
 
